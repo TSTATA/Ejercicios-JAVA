@@ -1,3 +1,4 @@
+// introducir datos
 import java.util.Scanner;
 import java.util.Locale;
 public class Ejercicio_1{
@@ -5,7 +6,7 @@ public class Ejercicio_1{
  Scanner entrada = new Scanner(System.in);
  entrada.useLocale(Locale.US);
  double x=0;
- int redondeo=0; 
+ int redondeo=0;
  int redondeo_2=0;
  System.out.print("indroduce el numero ");
  x = entrada.nextDouble();
