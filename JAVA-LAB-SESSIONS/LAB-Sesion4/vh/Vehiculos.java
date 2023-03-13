@@ -1,3 +1,4 @@
+// TSTATAVEHICULO
 public class Vehiculos {
 
     private String matricula;
@@ -63,7 +64,7 @@ public class Vehiculos {
         } else {
             lucestxt = "luces apagadas";
         }
-        return "Vehiculo{" + "matricula=" + matricula + ", marca=" + marca + ", modelo=" + modelo 
+        return "Vehiculo{" + "matricula=" + matricula + ", marca=" + marca + ", modelo=" + modelo
          + ", velocidad=" + velocidad + ", luces=" + lucestxt + '}';
     }
 }
