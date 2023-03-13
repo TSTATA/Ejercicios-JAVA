@@ -1,4 +1,5 @@
-// crearemos la clase con dos atributos y 
+// TSTATALAMPARA
+// crearemos la clase con dos atributos y
 // sus correspondientes métodos get y set
 public class Lampara{
 	private boolean luz;
@@ -24,14 +25,14 @@ public class Lampara{
             this.intensidad = intensidad;
         } else {
             this.intensidad = 0;
-        }    
+        }
     }
 
  public void setIntensidad(double voltaje) {
         if (voltaje <= 1.5) {
             this.intensidad = 0;
         } else if (voltaje >= 12.5) {
-            this.intensidad = 100;         
+            this.intensidad = 100;
         } else {
             this.intensidad = (int) (100/11.0 * (voltaje-1.5));
         }
