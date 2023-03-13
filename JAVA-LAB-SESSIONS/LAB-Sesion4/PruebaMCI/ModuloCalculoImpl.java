@@ -1,5 +1,6 @@
-public class ModuloCalculoImpl implements ModuloCalculo {	
-        
+// TSTATACALCULO
+public class ModuloCalculoImpl implements ModuloCalculo {
+
 	public double suma(double a, double b) 	{
 		return a+b;
 	}
@@ -10,6 +11,6 @@ public class ModuloCalculoImpl implements ModuloCalculo {
 		return a*b;
 	}
 	public double divide(double a, double b) {
-		return a/b; 
+		return a/b;
 	}
 }

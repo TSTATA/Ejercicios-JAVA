@@ -1,3 +1,4 @@
+// TSTATACALCULO
 public class PruebaMCI {
 	public static void main (String args[]) 	{
 		ModuloCalculoImpl mci = new ModuloCalculoImpl();
