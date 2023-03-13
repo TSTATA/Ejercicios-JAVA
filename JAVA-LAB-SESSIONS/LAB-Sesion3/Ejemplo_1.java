@@ -1,3 +1,4 @@
+// clases con m�todos auxiliares
 /**El siguiente ejemplo muestra una clase con un método auxiliar que permite escribir el mensaje Eco… tantas veces como le indiquemos.
 */
 import java.util.Scanner;

@@ -1,3 +1,4 @@
+// clases con métodos auxiliares
 import java.util.Scanner;
 
 public class Ejemplo_3{
