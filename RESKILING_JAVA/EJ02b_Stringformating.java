@@ -9,7 +9,7 @@ public class EJ02b_Stringformating {
         String s3 = String.format("s3 evitando confusion %#x", iVal); // da 0x20 es el formato tradicional para numeros exadecimales.
         System.out.println(s3);
         // a parte de # hay : 0 and -
-        String s4 = String.format("s4 A  %d B %d", a,b);
+        String s4 = String.format("s4 A  %2$d B %1$d", a,b); // disp : s4 A  2 B 1
         System.out.println(s4);
         String s5 = String.format("s5 A %4d, B %4d", a,b);
         System.out.println(s5);
