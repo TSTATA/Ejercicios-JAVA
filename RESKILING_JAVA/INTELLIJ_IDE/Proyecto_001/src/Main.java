@@ -3,7 +3,7 @@ Practico tambien sobre el Packages. sirve para organizar y hay un estandar para 
 los nombres de los paquetes tienen que ir en minuscula.
 
  */
-//package ejercicios.ejerciciouno.Main;
+package ejercicios.ejerciciouno.Main;
 public class Main {
     public static void main(String[] args) {
         System.out.println("hay tres tipos de comentarios en java  " );
