@@ -9,6 +9,7 @@ public class CalculateHelper {
     private static final char MULTIPLY_SYMBOL = '*';
     private static final char DIVIDE_SYMBOL = '/';
 
+    // tstata03 declaramos command y los otros valores.
     MathCommand command;
     double leftValue;
     double rightValue;
@@ -16,9 +17,10 @@ public class CalculateHelper {
 
     public void process(String statement) {
         // add 1.0 2.0
-        String[] parts = statement.split(" ");
-        String commandString = parts[0]; // add
-        leftValue = Double.parseDouble(parts[1]); // 1.0
+        // tstata04 creamos una matriz llamada partes
+        String[] parts = statement.split(" "); // split(" ") es un método de la clase String que divide la cadena en partes más pequeñas utilizando un delimitador especificado. En este caso, el delimitador es un espacio en blanco.
+        String commandString = parts[0]; // add (aqui va el comando)
+        leftValue = Double.parseDouble(parts[1]); // 1.0  convierto la cadena en double.(Double.parseDouble())
         rightValue = Double.parseDouble(parts[2]); // 2.0
 
         setCommandFromString(commandString);
@@ -47,8 +49,9 @@ public class CalculateHelper {
 
     private void setCommandFromString(String commandString) {
         // add -> MathCommand.Add
-
-        if(commandString.equalsIgnoreCase(MathCommand.Add.toString()))
+/*MathCommand.Add.toString(): la enumeración MathCommand contiene una constante llamada Add.
+La función toString() se llama en esta constante para obtener su representación en forma de cadena */
+        if(commandString.equalsIgnoreCase(MathCommand.Add.toString())) //Compara dos strings para ver si son iguales ignorando las diferencias entre mayusculas y minusculas
             command = MathCommand.Add;
         else if(commandString.equalsIgnoreCase(MathCommand.Subtract.toString()))
             command = MathCommand.Subtract;
@@ -60,7 +63,7 @@ public class CalculateHelper {
 
     @Override
     public String toString() {
-        // 1.0 + 2.0 = 3.0
+         // 1.0 + 2.0 = 3.0
         char symbol = ' ';
         switch(command) {
             case Add:

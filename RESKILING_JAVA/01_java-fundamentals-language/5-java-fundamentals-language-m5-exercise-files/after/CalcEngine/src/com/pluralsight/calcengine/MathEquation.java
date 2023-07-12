@@ -18,7 +18,7 @@ public class MathEquation {
 
     public double getResult() { return result;}
 
-    public void execute() {
+    public void ejecutar() {
         switch(opCode) {
             case 'a':
                 result = leftVal + rightVal;
@@ -27,7 +27,7 @@ public class MathEquation {
                 result = leftVal - rightVal;
                 break;
             case 'd':
-                result = rightVal != 0.0d ? leftVal / rightVal : 0.0d;
+                result = rightVal != 0.0d ? leftVal / rightVal : 0.0d; // TSTATA no conocía esta forma ?
                 break;
             case 'm':
                 result = leftVal * rightVal;

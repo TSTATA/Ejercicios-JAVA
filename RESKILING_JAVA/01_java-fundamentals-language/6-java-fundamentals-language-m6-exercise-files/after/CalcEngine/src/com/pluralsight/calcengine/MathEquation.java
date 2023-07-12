@@ -17,7 +17,7 @@ public class MathEquation {
     public void setOpCode(char opCode) {this.opCode = opCode;}
 
     public double getResult() { return result;}
-
+    // realmente no entiendo porque se ponen los tres constructores siguientes. TSTATA
     public MathEquation() {}
 
     public MathEquation(char opCode) {
@@ -25,7 +25,8 @@ public class MathEquation {
     }
 
     public MathEquation(char opCode, double leftVal, double rightVal) {
-        this(opCode);
+        // se pone this(opCode) para llamar a todos los consturctores que utiliznan opCode. Debe de ser nuestra primera linea del constructor.
+        this(opCode); // para encadenar los constructores. se esta utilizando ien el constructor de arriba tambien
         this.leftVal = leftVal;
         this.rightVal = rightVal;
     }

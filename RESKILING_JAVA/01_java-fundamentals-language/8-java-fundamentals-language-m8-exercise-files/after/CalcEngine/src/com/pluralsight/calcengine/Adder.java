@@ -6,7 +6,11 @@ package com.pluralsight.calcengine;
 public class Adder extends CalculateBase {
     public Adder(){}
     public Adder(double leftVal, double rightVal){
-        super(leftVal, rightVal);
+        super(leftVal, rightVal); // Llama al constructor de la clase base
+        /*
+        super se utiliza para acceder a los miembros de la clase base
+        y para invocar al constructor de la clase base desde la subclase
+         */
     }
 
     @Override
