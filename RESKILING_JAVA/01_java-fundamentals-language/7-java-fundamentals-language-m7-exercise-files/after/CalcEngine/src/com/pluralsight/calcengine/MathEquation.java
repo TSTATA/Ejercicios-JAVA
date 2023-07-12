@@ -30,23 +30,23 @@ public class MathEquation {
         this.rightVal = rightVal;
     }
 
-    public void execute(double leftVal, double rightVal) {
+    public void ejecutar(double leftVal, double rightVal) {
         this.leftVal = leftVal;
         this.rightVal = rightVal;
 
-        execute();
+        ejecutar();
     }
 
-    public void execute(int leftVal, int rightVal) {
+    public void ejecutar(int leftVal, int rightVal) {
         this.leftVal = leftVal;
         this.rightVal = rightVal;
 
-        execute();
+        ejecutar();
 
         result = (int)result;
     }
 
-    public void execute() {
+    public void ejecutar() {
         switch(opCode) {
             case 'a':
                 result = leftVal + rightVal;

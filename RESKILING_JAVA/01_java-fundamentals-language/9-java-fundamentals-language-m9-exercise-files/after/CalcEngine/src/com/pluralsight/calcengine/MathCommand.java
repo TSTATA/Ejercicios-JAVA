@@ -8,4 +8,6 @@ public enum MathCommand {
     Subtract,
     Multiply,
     Divide
+    // tstata02 ahora creamos una clase que el procesamineto de la cadena por nosotoros.
+    // Class : CalculateHelper
 }
