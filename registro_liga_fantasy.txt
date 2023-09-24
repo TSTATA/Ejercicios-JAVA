@@ -1,0 +1,6 @@
+Presidente: bilal
+Gastos: 4.8698705E7 euros
+Ingresos por venta de jugadores: 1.8398334E7 euros
+Ganancias por puntos conseguidos: 0.0 euros
+Saldo Total: -3.0300371E7 euros
+
