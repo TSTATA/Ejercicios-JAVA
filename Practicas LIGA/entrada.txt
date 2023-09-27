@@ -1,0 +1,3 @@
+Hamidv,ingreso:100000000+8556077,gasto:4822163+3070706+2457823+5293467+3223642+2384899+2728666+530415,recompensa_punto:38
+Presidente2,ingreso:0,gasto:0,recompensa_punto:1
+Presidente3,ingreso:200000,gasto:100000,recompensa_punto:10
