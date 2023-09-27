@@ -8,7 +8,7 @@ public class CalculadoraSaldoPresidentes {
         String inputFile = "entrada.txt";
         String outputFile = "salida.txt";
 
-        Map<String, Integer> balances = new HashMap<>();
+        Map<String, Integer[]> balances = new HashMap<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFile))) {
             String line;
@@ -36,20 +36,35 @@ public class CalculadoraSaldoPresidentes {
                 int saldoFinal = saldo + recompensaEuros;
 
                 if (balances.containsKey(presidente)) {
-                    saldoFinal += balances.get(presidente);
+                    Integer[] existingBalances = balances.get(presidente);
+                    existingBalances[0] += totalIngreso; // Ingreso total
+                    existingBalances[1] += totalGasto; // Gasto total
+                    existingBalances[2] += recompensaEuros; // Recompensa por puntos en euros
+                    existingBalances[3] = saldoFinal; // Saldo final
+                } else {
+                    Integer[] newBalances = {totalIngreso, totalGasto, recompensaEuros, saldoFinal};
+                    balances.put(presidente, newBalances);
                 }
-
-                balances.put(presidente, saldoFinal);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
-            for (Map.Entry<String, Integer> entry : balances.entrySet()) {
+            for (Map.Entry<String, Integer[]> entry : balances.entrySet()) {
                 String presidente = entry.getKey();
-                int saldoFinal = entry.getValue();
-                writer.write(presidente + ",saldo_final:" + saldoFinal + "\n");
+                Integer[] balancesArray = entry.getValue();
+                int ingresoTotal = balancesArray[0];
+                int gastoTotal = balancesArray[1];
+                int recompensaPuntosEuros = balancesArray[2];
+                int saldoFinal = balancesArray[3];
+
+                writer.write("Presidente: " + presidente + "\n");
+                writer.write("Ingreso Total: " + ingresoTotal + "\n");
+                writer.write("Gasto Total: " + gastoTotal + "\n");
+                writer.write("Recompensa por Puntos en Euros: " + recompensaPuntosEuros + "\n");
+                writer.write("Saldo Final: " + saldoFinal + "\n");
+                writer.write("\n");
             }
         } catch (IOException e) {
             e.printStackTrace();

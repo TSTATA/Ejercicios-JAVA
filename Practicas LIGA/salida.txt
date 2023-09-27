@@ -1,3 +1,18 @@
-Hamidv,saldo_final:87844296
-Presidente2,saldo_final:100000
-Presidente3,saldo_final:1100000
+Presidente: Hamidv
+Ingreso Total: 108556077
+Gasto Total: 24511781
+Recompensa por Puntos en Euros: 3800000
+Saldo Final: 87844296
+
+Presidente: Presidente2
+Ingreso Total: 0
+Gasto Total: 0
+Recompensa por Puntos en Euros: 100000
+Saldo Final: 100000
+
+Presidente: Presidente3
+Ingreso Total: 200000
+Gasto Total: 100000
+Recompensa por Puntos en Euros: 1000000
+Saldo Final: 1100000
+
