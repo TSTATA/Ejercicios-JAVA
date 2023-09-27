@@ -1,0 +1,4 @@
+belka,ingreso:0,gasto:0,recompensa_punto:0
+bilal,ingreso:0,gasto:0,recompensa_punto:0
+Hamidv,ingreso:0,gasto:0,recompensa_punto:0
+imadv,ingreso:0,gasto:0,recompensa_punto:0

@@ -1,18 +1,24 @@
-Presidente: Hamidv
+Presidente: Imad
+Ingreso Total: 137564285
+Gasto Total: 76510215
+Recompensa por Puntos en Euros: 3200000
+Saldo Final: 64254070
+
+Presidente: mohamed
+Ingreso Total: 211532314
+Gasto Total: 178948168
+Recompensa por Puntos en Euros: 7100000
+Saldo Final: 39684146
+
+Presidente: oussama
+Ingreso Total: 150045089
+Gasto Total: 151843781
+Recompensa por Puntos en Euros: 2000000
+Saldo Final: 201308
+
+Presidente: Hamid
 Ingreso Total: 108556077
 Gasto Total: 24511781
 Recompensa por Puntos en Euros: 3800000
 Saldo Final: 87844296
-
-Presidente: Presidente2
-Ingreso Total: 0
-Gasto Total: 0
-Recompensa por Puntos en Euros: 100000
-Saldo Final: 100000
-
-Presidente: Presidente3
-Ingreso Total: 200000
-Gasto Total: 100000
-Recompensa por Puntos en Euros: 1000000
-Saldo Final: 1100000
 
