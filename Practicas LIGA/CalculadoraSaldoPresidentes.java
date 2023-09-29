@@ -35,6 +35,14 @@ public class CalculadoraSaldoPresidentes {
 
                 int saldoFinal = saldo + recompensaEuros;
 
+                // Mostrar informacion en la consola
+                System.out.println();
+                System.out.println("============================");
+                System.out.println("Presidente: " + presidente);
+                System.out.println("Saldo Final maximo: " + saldoFinal);
+                System.out.println("============================");
+                System.out.println();
+
                 if (balances.containsKey(presidente)) {
                     Integer[] existingBalances = balances.get(presidente);
                     existingBalances[0] += totalIngreso; // Ingreso total
@@ -59,6 +67,7 @@ public class CalculadoraSaldoPresidentes {
                 int recompensaPuntosEuros = balancesArray[2];
                 int saldoFinal = balancesArray[3];
 
+                // Escribir informacion en el archivo de salida
                 writer.write("Presidente: " + presidente + "\n");
                 writer.write("Ingreso Total: " + ingresoTotal + "\n");
                 writer.write("Gasto Total: " + gastoTotal + "\n");
