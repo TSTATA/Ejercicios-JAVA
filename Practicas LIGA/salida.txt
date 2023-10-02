@@ -17,8 +17,8 @@ Recompensa por Puntos en Euros: 0
 Saldo Final: 5121537
 
 Presidente: Hamid
-Ingreso Total: 68316278
-Gasto Total: 0
+Ingreso Total: 85575976
+Gasto Total: 80417800
 Recompensa por Puntos en Euros: 0
-Saldo Final: 68316278
+Saldo Final: 5158176
 

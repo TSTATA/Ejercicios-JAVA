@@ -1,4 +1,4 @@
-Hamid,ingreso:68316278,gasto:0,recompensa_punto:0
+Hamid,ingreso:68316278+2628124+8138723+6492851,gasto:55417691+25000109,recompensa_punto:0
 Imad,ingreso:14261730,gasto:0,recompensa_punto:0
 oussama,ingreso:5121537,gasto:0,recompensa_punto:0
 mohamed,ingreso:34391870,gasto:0,recompensa_punto:0
