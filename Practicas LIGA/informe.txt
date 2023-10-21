@@ -1,0 +1,9 @@
+Nombre del jugador: DE MARCOS
+Valor de mercado: 1.2152341E7
+Crecimiento en 5 días (en porcentaje): 14.26%
+Crecimiento diario (en porcentaje): 2.852%
+Crecimiento en 8 días: 1.492501912256E7
+Crecimiento en 10 días: 1.56181886532E7
+Crecimiento en 13 días: 1.665794294916E7
+Gasto en cláusula (en euros): 4505601.94916
+
