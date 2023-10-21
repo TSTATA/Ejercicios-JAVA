@@ -1,9 +1,27 @@
-Nombre del jugador: DE MARCOS
-Valor de mercado: 1.2152341E7
-Crecimiento en 5 días (en porcentaje): 14.26%
-Crecimiento diario (en porcentaje): 2.852%
-Crecimiento en 8 días: 1.492501912256E7
-Crecimiento en 10 días: 1.56181886532E7
-Crecimiento en 13 días: 1.665794294916E7
-Gasto en cláusula (en euros): 4505601.94916
+Nombre del jugador: sergio herrera
+Valor de mercado: 6903705.0
+Crecimiento en 5 días (en porcentaje): 1.51%
+Crecimiento diario (en porcentaje): 0.302%
+Crecimiento en 8 días: 7070498.5128
+Crecimiento en 10 días: 7112196.891
+Crecimiento en 13 días: 7174744.4583
+Gasto en cláusula (en euros): 271039.4583
+
+Nombre del jugador: unai g
+Valor de mercado: 463062.0
+Crecimiento en 5 días (en porcentaje): 1.53%
+Crecimiento diario (en porcentaje): 0.306%
+Crecimiento en 8 días: 474397.75776
+Crecimiento en 10 días: 477231.6972
+Crecimiento en 13 días: 481482.60636
+Gasto en cláusula (en euros): 18420.606359999998
+
+Nombre del jugador: rebbach
+Valor de mercado: 442521.0
+Crecimiento en 5 días (en porcentaje): 2.47%
+Crecimiento diario (en porcentaje): 0.49400000000000005%
+Crecimiento en 8 días: 460009.42992
+Crecimiento en 10 días: 464381.53740000003
+Crecimiento en 13 días: 470939.69862
+Gasto en cláusula (en euros): 28418.698620000003
 
