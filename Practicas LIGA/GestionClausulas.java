@@ -5,7 +5,7 @@ public class GestionClausulas {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        while (true) {
+        while (true) { // while (true) : crea un bucle infinito  hasta que encuentre instruccion de break
             System.out.println("Que quieres hacer");
             System.out.println("1. Comprar/Calusulazo");
             System.out.println("2. Subir mi clausula");
